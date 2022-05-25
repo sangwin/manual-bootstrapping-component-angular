@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <base href="/">
+  <meta charset="utf-8">
+  <title>Manual Bootstrapping Components In Angular</title>
+  <meta name="author" content="Sangwin Gawande">
+  <meta name="url" content="https://sangw.in">
+	<meta name="description" content="Manual Bootstrapping Components In Angular Demo By Sangwin Gawande">
+	<meta name="keywords" content="Manual Bootstrapping Components In Angular Demo By Sangwin Gawande">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+  <!-- DEMO CODE | Can Be removed -->
+  <!-- This is to select Bootstrap component -->
+
+  <select onchange="test(this.value)" id="select_id">
+    <option>Select Component To Be Bootstrapped</option>
+    <option value="app-root">App Component</option>
+    <option value="app-secondary">Secondary Component</option>
+  </select>
+  <script>
+    function test(val) {
+      alert('Component Changed, Window will be refreshed.');
+      localStorage.setItem('selected_component', val);
+      window.location.reload();
+    }
+  </script>
+  <!-- DEMO CODE | Can Be removed -->
+
+
+  <!-- Removing app-root selector as this will be added dynamically -->
+  <!-- <app-root></app-root> -->
+
+  <!-- Components will be initialized here -->
+  <h2 id="componentLoader"> Loading... </h2>
+  <!-- Components will be initialized here -->
+
+</body>
+
+</html>
