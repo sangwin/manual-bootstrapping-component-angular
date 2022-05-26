@@ -19,8 +19,6 @@ The application will automatically reload if you change any of the source files.
 
 -------
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.3.
-
 # NgManualBootstrapping
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
