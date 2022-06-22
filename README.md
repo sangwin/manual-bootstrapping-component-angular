@@ -53,4 +53,4 @@ Referred from  : [How to manually bootstrap an angular application](https://inde
 ------------
 
 
-![visitors](https://img.shields.io/badge/dynamic/json?color=badge&label=Thank%20you%20for%20visiting%20%28Since%20June%202022%29&query=value&url=https://api.countapi.xyz/hit/sangwin.manual-bootstrapping-component-angular//readme)
+![visitors](https://img.shields.io/badge/dynamic/json?color=badge&label=Thank%20you%20for%20visiting%20%28Since%20June%202022%29&query=value&url=https://api.countapi.xyz/hit/sangwin.manual-bootstrapping-component-angular/readme)
